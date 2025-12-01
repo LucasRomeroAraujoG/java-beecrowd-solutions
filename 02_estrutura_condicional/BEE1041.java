@@ -15,7 +15,7 @@ public class BEE1041{
         //Entrada
         x = teclado.nextDouble();
         y = teclado.nextDouble();
-        //Processamento
+        //Processamento e saída
         if (x > 0 && y > 0){
             System.out.println("Q1");
         }
@@ -32,10 +32,10 @@ public class BEE1041{
             System.out.println("Origem");
         }
         else if(x == 0 && y != 0){
-            System.out.println("Eixo X");
+            System.out.println("Eixo Y");
         }
         else{
-            System.out.println("Eixo Y");
+            System.out.println("Eixo X");
         }
 
         teclado.close();

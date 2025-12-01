@@ -16,11 +16,11 @@ Imprima todas as classificações do triângulo especificado na entrada.*/
 public class BEE1045{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
-        int n1, n2, n3, a, b, c;
+        double n1, n2, n3, a, b, c;
         //Entrada
-        n1 = teclado.nextInt();
-        n2 = teclado.nextInt();
-        n3 = teclado.nextInt();
+        n1 = teclado.nextDouble();
+        n2 = teclado.nextDouble();
+        n3 = teclado.nextDouble();
         if(n1 > n2 && n1 > n3){
             a = n1;
             if(n2 > n3){
